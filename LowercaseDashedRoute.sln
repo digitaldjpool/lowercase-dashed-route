@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LowercaseDashedRouting", "LowercaseDashedRouting\LowercaseDashedRouting.csproj", "{60AF4435-A22E-4937-BEB6-7A6A4EDE832D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LowercaseDashedRouting.Test", "LowercaseDashedRouting.Test\LowercaseDashedRouting.Test.csproj", "{23716EC5-35C4-4CAC-849E-FFEB76F0FAB6}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

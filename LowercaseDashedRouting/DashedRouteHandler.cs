@@ -28,7 +28,7 @@ namespace LowercaseDashedRouting
 		/// </summary>
 		/// <param name="path"></param>
 		/// <returns></returns>
-		private string UnDash(string path)
+		public static string UnDash(string path)
 		{
 			if (path.Length == 0)
 				return path;

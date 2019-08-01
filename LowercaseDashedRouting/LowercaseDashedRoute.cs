@@ -188,7 +188,8 @@ namespace LowercaseDashedRouting
 
 			for (int i = 1; i < text.Length; i++)
 			{
-				if (char.IsUpper(text[i]) && char.IsLetterOrDigit(text[i - 1]))
+				if (char.IsUpper(text[i]) && char.IsLetterOrDigit(text[i - 1]) &&
+                    (!char.IsUpper(text[i - 1]) || (i + 1 < text.Length && !char.IsUpper(text[i + 1])))) // handle acronyms like BPM or DJ in beginning or end of segment
 					newText.Append('-');
 
 				newText.Append(text[i]);
